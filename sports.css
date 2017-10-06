@@ -1,0 +1,119 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+div:nth-of-type(1) img{
+		width: 200px;
+		height: 200px;
+	}
+	div:nth-of-type(1) h1{
+		font-size: 200px;
+	}
+	body{
+		background-image:url("/home/gajendra/Desktop/project/webtech/sports-faith-background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h1{
+
+		text-align: center;
+		font-family: 'Pangolin', cursive;
+		color: cyan;
+		font-size:30px;
+
+	}
+	h1:hover {
+		content: 'Welcome!';
+		transform: scale(1.2) rotateY(360deg);
+		transition: 5s;
+		color: red;
+		background-color: #262626;
+	}
+	table{
+		/*border:2px solid rgb(6,134,234);*/
+		border-collapse: separate;
+		border-radius: 2px;
+		border-spacing: 20px;
+		width:50%;
+		margin:15px auto;
+
+	}
+
+	td{
+		width: 100px;
+		height: 100px;
+	}
+	
+	/* #c{
+		background:url(https://logos.co/1024/royalty-free-vector-cricket-player-logo-8-by-patrimonio-2636.jpg);
+		background-repeat: no-repeat;
+		background-size:cover; */
+
+	/* } */
+	/* #f{ 
+		background:url(https://image.freepik.com/free-vector/football-team-logo_23-2147510389.jpg);
+		background-repeat: no-repeat;
+		background-size:cover;
+	}
+	#h{
+		background:url(https://previews.123rf.com/images/squarelogo/squarelogo1207/squarelogo120700012/14404790-Vintage-Hockey-Sport-Stamp-Stock-Vector-hockey-logo-grunge.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#k{
+		background:url(http://madrazbuzz.com/wp-content/uploads/2016/08/33_Kabbadi.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	*/
+	.sp:hover {
+		-webkit-transform: scale(1.2);
+		-moz-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+		transition: all 0.3s;
+		-webkit-transition: all 0.3s;
+	}
+
+ hr{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+p{
+	text-align: right;
+	font-family: cursive;
+
+}
+.nav{
+	width: 100%;
+	overflow: hidden
+}
+
+.nav .bar{
+	padding:8px 16px;float:left;background-color:inherit;color:inherit;width:auto;border:none;outline:none;display:block
+}
